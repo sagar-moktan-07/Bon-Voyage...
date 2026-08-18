@@ -46,5 +46,28 @@
 //     }
 // }
 
-// relational operators in java 
+// relational operators in java --> <,>,==,!=,<=,>=:
 
+// public class HelloWorld{
+//     public static void main(String[] args) {
+//         int a = 5;
+//         int b = 3;
+//         System.out.println(a<b);
+//         //or 
+//         boolean result = a != b;
+//         System.out.println(result);
+//     }
+// }
+
+// logical operators --> and(&), or(|)  and not(!) or also called short circuit and used &&, ||, ! 
+
+public class HelloWorld{
+    public static void main(String[] args) {
+        boolean a = true;
+        boolean b = false;
+        System.out.println(a | b);
+        System.out.println(!a);
+        System.out.println(a & b);
+        
+    }
+}
